@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927623c3-6ca7-4a8a-99ff-027c405ae79b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MakeYourCodeFasterOne/MakeYourCodeFasterOne/Challenge.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MakeYourCodeFasterOneResults/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MakeYourCodeFasterOneResults/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MakeYourCodeFasterOne/Challenge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MakeYourCodeFasterOneResults/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MakeYourCodeFasterOneResults/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeYourCodeFasterOne/Challenge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MakeYourCodeFasterOne/Challenge.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MakeYourCodeFasterOne/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MakeYourCodeFasterOne/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740681579830</updated>
-      <workItem from="1740681580959" duration="1238000" />
+      <workItem from="1740681580959" duration="2694000" />
     </task>
     <servers />
   </component>

@@ -18,23 +18,33 @@ public class Challenge {
     }
 
     (string, int) key = (stone, times--);
+    long result;
+    if (cache.TryGetValue(key, out long cached))
+    {
+      result = cached;
+    }
 
-    if (stone == "0")
+
+    else if (stone == "0")
     {
       cache[key] = Cycle("1", times, cache);
+      result = cache[key];
     }
+
 
     else if (StoneHasEvenDigits(stone))
     {
-      (string leftStone, string rightStone) = SplitStone(stone);
-      cache[key] = Cycle(leftStone, times, cache) + Cycle(rightStone, times, cache);
+      (string left, string right) = SplitStone(stone);
+      cache[key] = Cycle(left, times, cache) + Cycle(right, times, cache);
+      result = cache[key];
     }
     else
     {
       cache[key] = Cycle(MultiplyStoneBy2024(stone), times, cache);
+      result = cache[key];
     }
 
-    return cache[key];
+    return result;
   }
 
   private bool StoneHasEvenDigits(string stone) {
