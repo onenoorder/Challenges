@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Challenge.cpp" />
     <ClCompile Include="MakeYourCodeFasterOneCPP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Challenge.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
