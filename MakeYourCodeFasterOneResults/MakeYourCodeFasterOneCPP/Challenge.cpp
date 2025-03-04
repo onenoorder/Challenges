@@ -1,7 +1,7 @@
 #include "Challenge.h"
 
 bool operator<(const MapKey& l, const MapKey& r) {
-    return (l.PartTwo < r.PartTwo || (l.PartOne == r.PartOne && l.PartOne < r.PartOne));
+    return (l.PartTwo < r.PartTwo || (l.PartTwo == r.PartTwo && l.PartOne < r.PartOne));
 }
 
 long long Challenge::Run(int cycles) {
